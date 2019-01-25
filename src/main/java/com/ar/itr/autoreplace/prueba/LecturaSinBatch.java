@@ -12,35 +12,23 @@ import java.util.List;
 import java.util.Map;
 
 public class LecturaSinBatch {
-    private static final Log LOG = LogFactory.getLog(LecturaSinBatch.class);
 
     public static void main(String[] args) throws IOException {
-        String clase = "LecturaSinBatch";
 
+        Menu menu = new Menu();
         ArchivoReader archivoReader = new ArchivoReader();
         ArchivoWriter archivoWriter = new ArchivoWriter();
-        Archivo archivo;
 
-        LOG.info("CLASS '" + clase + "' ====> " + "llamada al menu de opciones");
-        Map opciones = Menu.opciones();
-        String opcion = opciones.get("opcion").toString();
-        String path = opciones.get("path").toString();
-        String patronBusqueda = opciones.get("patronBusqueda").toString();
-        String lineaParaAgregar = opciones.get("lineaParaAgregar").toString();
-
-        LOG.info("CLASS '" + clase + "' ====> " + "verificando la opcion");
-        if (opcion.equals("a")){
-            archivo = archivoReader.lectura(path);
-            archivoWriter.escribir(archivo, lineaParaAgregar, patronBusqueda);
-
-        }else if(opcion.equals("l")) {
-            Archivo archivoConLista = archivoReader.lectura(path);
+        if (menu.getOpcion().equals("a")){
+            archivoWriter.escribir(menu.getArchivo(), menu.getLineaParaAgregar(), menu.getPatronBusqueda());
+        }else if(menu.getOpcion().equals("l")) {
             List<String> lista;
-            lista = archivoConLista.getContenido();
+            lista = menu.getArchivo().getContenido();
+            Archivo archivo;
 
             for (String pathDeLaLista : lista){
                 archivo = archivoReader.lectura(pathDeLaLista);
-                archivoWriter.escribir(archivo, lineaParaAgregar, patronBusqueda);
+                archivoWriter.escribir(archivo, menu.getLineaParaAgregar(), menu.getPatronBusqueda());
             }
         }
     }
