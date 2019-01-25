@@ -14,7 +14,10 @@ import static org.apache.commons.logging.LogFactory.getLog;
 
 //Retorna el archivo leido en una clase de tipo "archivo" con su contenido en un List<String>
 public class ArchivoReader {
+//==============================================================//
+    static String clase = "ArchivoReader";
     private static final Log LOG = getLog(ArchivoReader.class);
+//==============================================================//
 
     public Archivo lectura(String path) throws IOException {
 
@@ -33,8 +36,8 @@ public class ArchivoReader {
 
             }
             LOG.info("CLASS 'ArchivoReader': guardando informacion en la instancia de archivo");
-            archivo.setPath(path);
-            archivo.setContenido(contenidoLinea);
+            archivo.path = path;
+            archivo.contenido = contenidoLinea;
 
         } finally {
             LOG.info("CLASS 'ArchivoReader': cerrando archivo");

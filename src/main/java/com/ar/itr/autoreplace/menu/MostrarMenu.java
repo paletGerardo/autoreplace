@@ -1,49 +1,57 @@
 package com.ar.itr.autoreplace.menu;
 
+import com.ar.itr.autoreplace.model.Archivo;
+import com.ar.itr.autoreplace.reader.ArchivoReader;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.io.IOException;
 import java.util.Scanner;
 
 import static java.lang.System.in;
+import static org.apache.commons.logging.LogFactory.getLog;
 
-public class MostrarMenu {
-    String clase = "Menu";
-    private static final Log LOG = LogFactory.getLog(Menu.class);
+public abstract class MostrarMenu {
+    //==============================================================//
+        static String CLASE = "MostrarMenu";
+        private static final Log LOG = getLog(MostrarMenu.class);
+    //==============================================================//
 
-    public static Map opciones(){
+   public static Menu mostrar(){
 
-        Scanner scanner = new Scanner(in);
-        Map<String,String> opciones =  new HashMap<String,String>();
+       LOG.info("CLASS '" + CLASE + "' ====> " + "mostrando menu");
+       Archivo archivo = new Archivo();
+       ArchivoReader archivoReader = new ArchivoReader();
+       Scanner scanner = new Scanner(in);
 
-        System.out.println("====================================");
-        System.out.println("                MENU                ");
-        System.out.println("====================================");
+       System.out.println("====================================");
+       System.out.println("                MENU                ");
+       System.out.println("====================================");
 
-        System.out.println("1. Leer un archivo  (a)");
-        System.out.println("2. Leer una lista   (l)");
-        System.out.println("3. Salir del sistema   (S)");
-        System.out.println("====================================");
-        System.out.println("Elegir opcion: ");
-        String opcion = scanner.nextLine();
+       System.out.println("1. Leer un archivo       (a)");
+       System.out.println("2. Leer una lista        (l)");
+       System.out.println("3. Salir del sistema     (S)");
+       System.out.println("====================================");
+
+       System.out.println("Elegir opcion: ");
+       String opcion = scanner.nextLine();
 
 
-        System.out.println("Ingresar Path del archivo");
-        String pathArchivo = scanner.nextLine();
+       System.out.println("Ingresar Path del archivo");
+       String pathArchivo = scanner.nextLine();
+       try {
+           archivo = archivoReader.lectura(pathArchivo);
+       } catch (IOException e) {
+           e.printStackTrace();
+       }
 
-        System.out.println("Ingresar el patron de busqueda: ");
-        String patronBusqueda = scanner.nextLine();
 
-        System.out.println("Ingresar la linea que desea agregar: ");
-        String lineaParaAgregar = scanner.nextLine();
+       System.out.println("Ingresar el patron de busqueda: ");
+       String patronBusqueda = scanner.nextLine();
 
-        opciones.put("opcion", opcion);
-        opciones.put("path", pathArchivo);
-        opciones.put("patronBusqueda", patronBusqueda);
-        opciones.put("lineaParaAgregar", lineaParaAgregar);
+       System.out.println("Ingresar la linea que desea agregar: ");
+       String lineaParaAgregar = scanner.nextLine();
 
-        return opciones;
-    }
+       return new Menu(opcion,archivo,patronBusqueda,lineaParaAgregar);
+   }
 }

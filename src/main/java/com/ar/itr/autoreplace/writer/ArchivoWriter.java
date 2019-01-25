@@ -1,5 +1,6 @@
 package com.ar.itr.autoreplace.writer;
 
+import com.ar.itr.autoreplace.menu.Menu;
 import com.ar.itr.autoreplace.model.Archivo;
 import org.apache.commons.logging.Log;
 
@@ -13,18 +14,18 @@ public class ArchivoWriter {
 
     private static final Log LOG = getLog(ArchivoWriter.class);
 
-    public void escribir(Archivo archivo, String lineaParaAgregar, String patronBusqueda) throws IOException {
+    public void escribir(Menu menu) throws IOException {
         LOG.info("CLASS 'ArchivoWriter'====> " + "iniciando metodo escribir");
 
         String linea;
         int posicion = 0;
-        List<String> lista = archivo.getContenido();
+        List<String> lista = menu.archivo.contenido;
         LOG.info("CLASS 'LA LISTA'====> " + lista);
 
         for (int i = 0; i < lista.size(); i++) {
             linea = lista.get(i).toString();
 
-            if (linea.contains(patronBusqueda.trim())) {
+            if (linea.contains(menu.patronBusqueda.trim())) {
                 LOG.info("CLASS 'ArchivoWriter'====> " + "SE ENCONTRO LA LINEA: " + i);
 
                 posicion = i;
@@ -34,9 +35,9 @@ public class ArchivoWriter {
 
         //intento de guardar
        System.out.println(posicion);
-        lista.add(posicion, lineaParaAgregar);
+        lista.add(posicion, menu.lineaParaAgregar);
 
-        File file = new File(archivo.getPath());
+        File file = new File(menu.archivo.path);
         FileWriter fw = new FileWriter(file);
         BufferedWriter escritura = new BufferedWriter(fw);
 
@@ -48,7 +49,7 @@ public class ArchivoWriter {
         escritura.close();
 
         //imprime lista modificada
-        for (int i = 0; i < archivo.getContenido().size() ; i++) {
+        for (int i = 0; i < menu.archivo.contenido.size() ; i++) {
             linea = lista.get(i).toString();
             System.out.println(linea);
         }
