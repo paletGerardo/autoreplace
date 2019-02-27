@@ -3,64 +3,45 @@ package com.ar.itr.autoreplace;
 import com.ar.itr.autoreplace.menu.Menu;
 import com.ar.itr.autoreplace.menu.MostrarMenu;
 import com.ar.itr.autoreplace.model.Archivo;
-import com.ar.itr.autoreplace.reader.ArchivoReader;
-import com.ar.itr.autoreplace.writer.ArchivoWriter;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.IOException;
 
-import java.util.List;
-
-//@SpringBootApplication
 public class LecturaSinBatch {
-     ArchivoReader archivoReader = new ArchivoReader();
-     ArchivoWriter archivoWriter = new ArchivoWriter();
 
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         new LecturaSinBatch().execute();
     }
 
     private void execute() {
 
-        Menu menu = MostrarMenu.mostrar();
-
-        if (menu.opcion.equals("a")){
-            leerArchivo(menu);
-        }else if(menu.opcion.equals("l")) {
-            leerLista(menu);
-        }
+        Menu menu = MostrarMenu.cargarMenu();
+        leerArchivo(menu);
     }
 
-    private void leerArchivo(Menu menu){
+    private void leerArchivo(Menu menu) {
+        String path = MostrarMenu.ingresarPath();
+        menu.pathArchivo = path;
+
+        Archivo archivo = null;
         try {
-            archivoWriter.escribir(menu);
+            archivo = new Archivo(menu.pathRaiz, menu.pathArchivo);
         } catch (IOException e) {
             e.printStackTrace();
         }
-    }
 
-    private  void leerLista(Menu menu){
-        List<String> lista;
-        lista = menu.archivo.contenido;
-
-        for (String pathDeLaLista : lista){
+        while (!path.equals("x")) {
             try {
-                menu.archivo = archivoReader.lectura(pathDeLaLista);
-                archivoWriter.escribir(menu);
+                archivo.escribir(menu.patronBusqueda, menu.idParaAgregar);
             } catch (IOException e) {
-                e.printStackTrace();
+                System.out.println("Archivo no encontrado, verificar la path");
             }
+            path = MostrarMenu.ingresarPath();
+            menu.pathArchivo = path;
         }
     }
+
 }
 
-/*@SpringBootApplication
-public class AutoreplaceApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(AutoreplaceApplication.class, args);
-    }
-
-}*/
-
-// /home/gerr/Desarrollos/archivo.txt
+// /home/gerr/Desarrollos
+// carpeta/archivo2.txt

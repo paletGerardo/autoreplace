@@ -5,19 +5,20 @@ import com.ar.itr.autoreplace.model.Archivo;
 
 public class Menu {
     public String opcion;
-    public Archivo archivo;
+    public String pathRaiz;
+    public String pathArchivo;
     public String patronBusqueda;
-    public String lineaParaAgregar;
+    public String idParaAgregar;
 
     public Menu() {
 
     }
 
-    public Menu(String opcion, Archivo archivo, String patronBusqueda, String lineaParaAgregar) {
+    public Menu(String opcion, String pathRaiz, String patronBusqueda, String idParaAgregar) {
         this.opcion = opcion;
-        this.archivo = archivo;
+        this.pathRaiz = pathRaiz;
         this.patronBusqueda = patronBusqueda;
-        this.lineaParaAgregar = lineaParaAgregar;
+        this.idParaAgregar = idParaAgregar;
     }
 
 }
