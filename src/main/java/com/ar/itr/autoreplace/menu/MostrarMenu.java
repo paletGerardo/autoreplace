@@ -19,7 +19,10 @@ public abstract class MostrarMenu {
 
    public static Menu mostrar(){
 
-       LOG.info("CLASS '" + CLASE + "' ====> " + "mostrando menu");
+       LOG.info("CLASS '" + CLASE + "' ====> " + "Iniciando clase MostrarMenu: solo carga la vista para completar " +
+               "los datos y retorna una instancia de Menu(opcion,archivo,patronBusqueda,lineaParaAgregar), al cargar" +
+               "la path se instancia ArchivoReader");
+
        Archivo archivo = new Archivo();
        ArchivoReader archivoReader = new ArchivoReader();
        Scanner scanner = new Scanner(in);

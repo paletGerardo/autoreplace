@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cbdcb5b-3f64-4b79-9a1e-9d07b0348978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_batch_javax_batch_api_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_core_4_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_infrastructure_4_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_batch_spring_batch_test_4_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_batch_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_4_BUILD_SNAPSHOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/autoreplace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/autoreplace.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/AutoreplaceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/prueba/LecturaSinBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,55 +21,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+            <state relative-caret-position="524">
+              <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="5" selection-start-line="5" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#652#653#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
         </entry>
@@ -96,17 +33,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="10" />
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="419">
+              <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -135,13 +93,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/menu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ListaReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/prueba/LecturaSinBatch.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" />
       </list>
     </option>
   </component>
@@ -179,9 +137,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1493" />
-    <option name="width" value="1172" />
-    <option name="height" value="500" />
+    <option name="x" value="1366" />
+    <option name="width" value="1360" />
+    <option name="height" value="768" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -191,6 +149,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,76 +158,16 @@
               <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
               <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="writer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autoreplace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autoreplace" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548447875312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550692870177" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -326,17 +226,24 @@
       <workItem from="1548353534873" duration="258000" />
       <workItem from="1548361523745" duration="1015000" />
       <workItem from="1548419674665" duration="8297000" />
+      <workItem from="1548679028627" duration="1196000" />
+      <workItem from="1548767322862" duration="380000" />
+      <workItem from="1548856271141" duration="612000" />
+      <workItem from="1548856997081" duration="35000" />
+      <workItem from="1550690636197" duration="2563000" />
+      <workItem from="1550760336113" duration="27000" />
+      <workItem from="1551269329847" duration="4524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19916000" />
+    <option name="totallyTimeSpent" value="30560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1360" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3183206" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25535288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -347,15 +254,15 @@
       <window_info id="Jspresso Snap" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30622008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4800638" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32695374" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33173844" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.32854864" />
+      <window_info anchor="bottom" id="SonarLint" order="10" weight="0.5135566" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
@@ -432,70 +339,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/AutoreplaceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/AutoreplaceApplication.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" selection-start-line="5" selection-end-line="17" />
+        <state relative-caret-position="225">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="58" />
+        <state relative-caret-position="539">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/reader/ArchivoReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="35" column="28" lean-forward="true" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/writer/ArchivoWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="45" lean-forward="true" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -528,6 +432,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>jdk1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -556,6 +461,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
