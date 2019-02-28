@@ -68,8 +68,11 @@ public class Archivo {
             if (linea.contains(buscarSuppressWarningSimple.trim())) {
                 System.out.println("SUPPRESSWARNING ENCONTRADO >====================");
                 List<String> valores = buscaValor(linea);
+                System.out.println(valores + "VALORES ENCONTRADOS");
                 posicion = i;
-                suppressWaningCargado = armarSuppress(valores);
+                suppressWaningCargado = armarSuppress(valores,valorDeEntrada);
+                System.out.println(suppressWaningCargado + "SUPPRES CARGADO EN LINEA 74");
+                haySuppress= true;
                 break;
 
             } else {
@@ -84,7 +87,8 @@ public class Archivo {
 
        if (haySuppress){
            this.contenido.add(posicion, suppressWaningCargado);
-           this.contenido.remove(posicion-1);
+           System.out.println("borrando posicion repetida");
+           this.contenido.remove(posicion+1);
        }else{
            this.contenido.add(posicion, suppressWaningCargado);
        }
@@ -124,9 +128,16 @@ public class Archivo {
         return listaDeValores;
     }
 
-    private String armarSuppress(List<String> valores){
-
-        return null;
+    private String armarSuppress(List<String> valores, String valorDeEntrada){
+        LOG.info("CLASS '" + CLASE + "' ====> " + "DENTRO DEL METODO ARMARSUPPRESS: la lista de valores es " + valores + "y la lista de entradas es " + valorDeEntrada);
+        String stringLimpio = new String("");
+        StringBuilder stringBuilder = new StringBuilder(stringLimpio);
+        for (String valor : valores){
+            stringBuilder.append("\""+valor+"\",");
+        }
+        stringBuilder.append("\""+valorDeEntrada+"\"");
+        String armado = String.valueOf(stringBuilder);
+        return "@SuppressWarnings({"+armado+"})";
 
     }
 

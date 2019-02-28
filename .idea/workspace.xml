@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cbdcb5b-3f64-4b79-9a1e-9d07b0348978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,8 +32,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+                <state relative-caret-position="89">
+                  <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -60,7 +56,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="206">
+                    <state relative-caret-position="111">
                       <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="15" />
                       <folding>
                         <element signature="imports" expanded="true" />
@@ -78,7 +74,7 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="90">
+                    <state relative-caret-position="23">
                       <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
                       <folding>
                         <element signature="imports" expanded="true" />
@@ -178,7 +174,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551383796452" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551389643911" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -245,16 +241,15 @@
       <workItem from="1550760336113" duration="27000" />
       <workItem from="1551269329847" duration="24268000" />
       <workItem from="1551361049057" duration="303000" />
-      <workItem from="1551361410382" duration="19322000" />
+      <workItem from="1551361410382" duration="24681000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69929000" />
+    <option name="totallyTimeSpent" value="75288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25419846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -267,7 +262,7 @@
       <window_info id="Jspresso Snap" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2342918" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.58679444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -367,7 +362,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/menu/MostrarMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="23">
           <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -375,22 +370,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/LecturaSinBatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
+        <state relative-caret-position="111">
           <caret line="46" column="3" selection-start-line="46" selection-start-column="3" selection-end-line="46" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#320#321#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ar/itr/autoreplace/model/Archivo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
         </state>
       </provider>
     </entry>
