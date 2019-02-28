@@ -32,7 +32,7 @@ public class LecturaSinBatch {
 
         while (!path.equals("x")) {
             try {
-                archivo.escribir(menu.patronBusqueda, menu.idParaAgregar);
+                archivo.escribir(menu.idParaAgregar);
             } catch (IOException e) {
                 System.out.println("Archivo no encontrado, verificar la path");
             }
@@ -44,4 +44,4 @@ public class LecturaSinBatch {
 }
 
 // /home/gerr/Desarrollos
-// carpeta/archivo2.txt
+// archivo2.txt

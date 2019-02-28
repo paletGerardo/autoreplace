@@ -39,12 +39,12 @@ public abstract class MostrarMenu {
        System.out.println("Ingresar Path 'RAIZ' incluyendo '/' al final:");
        String pathRaiz = scanner.nextLine();
 
-       String patronBusqueda = "public class";
+
 
        System.out.println("Ingresar id del supressWarning: ");
        String idParaAgregar = scanner.nextLine();
 
-       return new Menu(opcion,pathRaiz,patronBusqueda,idParaAgregar);
+       return new Menu(opcion,pathRaiz,idParaAgregar);
    }
 
    public static String ingresarPath(){
